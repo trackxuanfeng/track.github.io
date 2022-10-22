@@ -1,36 +1,75 @@
-# This is a basic workflow to help you get started with Actions
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://zhrahao.rth1.one/ -->
+<html lang="zh-CN" onmousedown="return false"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="./周家豪的主页_files/jquery-3.6.1.js.下载" type="text/javascript"></script>
+    <script src="./周家豪的主页_files/func.js.下载" type="text/javascript"></script>
+    <link href="./周家豪的主页_files/pc_homepage.css" rel="stylesheet" type="">
+    <link href="https://pic.imgdb.cn/item/632ec45e16f2c2beb1ecbc21.png" rel="shortcut icon">
+    <title>王斯玄的主页</title>
+    
+</head>
+<body id="top">
+    <div class="easter_egg" id="page" oncontextmenu="return false"></div>
+    <div class="fixed_bar">
+        <div class="bar" id="bar_transparency">
+            <img src="./周家豪的主页_files/icon.png" id="icon" onclick="easter_Egg()">
+            <div class="bar_text">
+                <a onclick="changeHash(&#39;#top&#39;)">首页</a>
+                <a onclick="changeHash(&#39;#myInfo&#39;)">介绍</a>
+                <a onclick="changeHash(&#39;#myworks&#39;)">作品</a>
+                <a onclick="changeHash(&#39;#log&#39;)">日志</a>
+            </div>
+        </div>
+    </div>
+    <div class="MySelf">
+        <h1 style="font-size: 56px;">高山流水</h1>
+        <p id="easter_egg">/*这里是王斯玄的主页。*/</p>
+        <p>我系一个初中的学参（特有无意义错字<img src="./周家豪的主页_files/632ec43b16f2c2beb1ec96a5.png" width="20px" height="20px">）然后……</p>
+    </div>
+    <div class="pageup" id="pageUp">
+        <a onclick="changeHash(&#39;#myInfo&#39;)">    
+            <img src="./周家豪的主页_files/632ec43b16f2c2beb1ec96c4.png">
+        </a>
+    </div>
+    <div class="info" id="myInfo">
+        <div class="myinfo">
+            <h1>网站</h1><br>
+           <img border="0" src=".\img\bilibili.ico" alt="bilibili" width="20" height="20">
+<a href="https://space.bilibili.com/1457364623?spm_id_from=333.337.search-card.all.click" target="_blank">哔哩哔哩</a>
+           <img border="0" src=".\img\QQ.ico" alt="bilibili" width="20" height="20">
+<a href="https://user.qzone.qq.com/1635466751" target="_blank">我的QQ空间</a>
+        </div>
+        <div class="myWorks">
+            <h1>我的作品</h1>
+            <div class="worklist">  
+                <a class="yxh_article" href="https://zhrahao.rth1.one/yxh/" target="_blank">
+                    <div class="yxh_icon">
+                        <div class="yxh_text"><h2>营销号文章生成器</h2><h6>品味阅读深度好文</h6></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="log" id="log">
+            <h1>关于小站</h1>
+            <div class="log_list">
+                <div class="log_tag">
+                    <li id="title">版本列表</li>
+                    <li>1.0.0</li>
+                </div>
+                <div class="log_text">
+                    <h2>Track主页 1.0.0</h2>
+                    <p>我的个人主页上线了，</p>
+                    <p>使用原始UI，移动版体验可能不太好，</p>
+                    <p>本人正在努力<s>创造更多bug</s>优化界面</p>
+                    <p>请多关照^_^……</p>
+                    <a href="mailto:1635466751@qq.com" target="_blank">点击此处反馈小bug</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-name: CI
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+</body></html>
